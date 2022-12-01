@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portal do Serviço</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" href="form.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<body class="title">
+
+   <div class="container">
+	<div class="switch">
+		<div class="login" onclick="tab1();">Pessoa</div>
+		<div class="signup" onclick="tab2();">Empresa</div>
+	</div>
+
+	<div class="outer">
+		<form id="form">
+			<div id="page">
+				<label>Faça seu Cadastro</label>
+				<div class="element">
+					<input type="text" placeholder="CPF">
+					<span class="fas fa-user"></span>
+				</div>
+				<div class="element">
+					<input type="password" placeholder="Senha">
+					<span class="fas fa-lock"></span>
+				</div>
+				<div class="element">
+					<input type="text" placeholder="Email">
+					<span class="fas fa-envelope"></span>
+				</div>
+				<a href="/form_pessoa.html" class="btn">Cadastro</a>
+			</div>
+
+			<div id="page">
+				<label>Cadastro</label>
+				<div class="element">
+					<input type="text" placeholder="CNPJ">
+					<span class="fas fa-user"></span>
+				</div>
+				<div class="element">
+					<input type="password" placeholder="Senha">
+					<span class="fas fa-lock"></span>
+				</div>
+				<div class="element">
+					<input type="text" placeholder="Email">
+					<span class="fas fa-envelope"></span>
+				</div>
+				<form>
+					<a href="/form_empresa.html" class="btn">Cadastro</a>
+				  </form>
+		</form>
+	</div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

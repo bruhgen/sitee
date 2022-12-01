@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="stylef.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--<title>Responsive Regisration Form </title>--> 
+</head>
+<body class="forms">
+    <div class="container">
+        <header>Cadastro Empresa</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Faça seu Cadastro</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nome Completo</label>
+                            <input type="text" placeholder="Nome completo do representante" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Data de Nascimento</label>
+                            <input type="date" placeholder="Data de Nascimento" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Digite seu Email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Telefone Celular</label>
+                            <input type="number" placeholder="Digite seu número" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Serviço</label>
+                            <select required>
+                                <option disabled selected>Selecione o serviço</option>
+                                <option>Mecânico</option>
+                                <option>Bombeiro</option>
+                                <option>Encanador</option>
+                                <option>Programador</option>
+                                <option>Faxineira</option>
+                                <option>Diarista</option>
+                                <option>Cozinheiro</option>
+                                <option>Serviços Gerais</option>
+                                <option>pipipi</option>
+                                <option>popopo</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Especifique</label>
+                            <input type="text" placeholder="Detalhes da sua profissão" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Identidade">
+                    <span class="title">Detalhes da Empresa</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>CNPJ ou CPF</label>
+                            <input type="text" placeholder="CNPJ ou CPF" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nome Fantasia</label>
+                            <input type="text" placeholder="Digite o nome fantasia da sua Empresa" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Responsável da Empresa</label>
+                            <input type="text" placeholder="Nome do responsável da empresa" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Informação completementar</label>
+                            <input type="text" placeholder="Mais algum dado que gostaria de colocar?" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Data de Abertura da Empresa</label>
+                            <input type="date" placeholder="Coloque a data que abriu a empresa" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>A completar</label>
+                            <input type="text" placeholder="Enter expiry date" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Próximo</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Detalhes de Endereço</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Endereço</label>
+                            <input type="text" placeholder="Digite sua Rua" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Cep</label>
+                            <input type="text" placeholder="Digite seu CEP" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Estado</label>
+                            <input type="text" placeholder="Digite seu Estado" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Bairro</label>
+                            <input type="text" placeholder="Digite seu Bairro" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número</label>
+                            <input type="number" placeholder="Número de casa/Apartamento" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Complemento</label>
+                            <input type="number" placeholder="Digite seu complemento*" required>
+                        </div>
+                    </div>
+                </div>
+
+               
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Submit</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Enviar</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
